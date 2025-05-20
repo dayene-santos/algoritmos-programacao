@@ -36,7 +36,6 @@ public class Exercicio01 {
             System.out.printf("Sua média final foi de %.2f\n", media);
             System.out.println("PARABÉNS, Você está Aprovado!");
         }
-
         sc.close();
     }
 }
