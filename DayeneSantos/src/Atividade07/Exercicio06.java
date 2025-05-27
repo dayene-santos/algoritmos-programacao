@@ -33,6 +33,7 @@ public class Exercicio06 {
             // se não encontrar, avisa o usuário
             if (!encontrou) {
                 System.out.printf("Infelizmente o número %s não faz parte do vetor. Tente novamente.\n", tentativa);
+
             }
         }
         //Mostra o vetor apenas depois de o usuário acertar
