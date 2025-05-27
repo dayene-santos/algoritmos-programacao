@@ -1,0 +1,22 @@
+📌 Questão: Controle de Consumo de Energia por Mês
+
+Crie um algoritmo que registre o consumo mensal de energia de um cliente durante os 12 meses do ano.
+Para isso, utilize os seguintes vetores:
+
+- Um vetor caractere que armazene os nomes dos clientes.
+- Um vetor numerico que armazene os id's dos clientes.
+- Um vetor de 12 posições do tipo real para armazenar a quantidade de kWh consumida em cada mês.
+- Um vetor de 12 posições do tipo real para armazenar o valor da conta de luz referente a cada mês.
+
+Seu algoritmo deve:
+
+- Ler os dados dos vetores:
+    - id dos clientes
+    - nome dos clientes
+    - quantidade de kWh consumida
+    - valor pago no mês
+    - mês referência
+
+- Calcular o valor médio pago por mês.
+- Exibir o mês com maior consumo de kWh.
+- Exibir o mês em que a conta de luz foi mais cara.

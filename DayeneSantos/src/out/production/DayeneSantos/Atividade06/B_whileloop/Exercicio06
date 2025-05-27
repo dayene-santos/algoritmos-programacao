@@ -1,0 +1,53 @@
+// PSEUDOCÓDIGO:
+Inicio:
+    inteiro voto, totalVotos = 0;
+    inteiro candidato1 = 0, candidato2 = 0, candidato3 = 0, candidato4 = 0;
+    inteiro nulo = 0, branco = 0;
+    real percentualCandidato1, percentualCandidato2, percentualCandidato3, percentualCandidato4;
+    real percentualNulo, percentualBranco;
+
+    Escreva("Informe o código do voto: (1-4=candidatos, 5=nulo, 6=branco, 0=Encerrar): ");
+    Leia(voto);
+
+    Enquanto voto != 0 faça
+        se voto >= 1 e voto <= 6 então
+            totalVotos = totalVotos + 1;
+
+        senão se voto ← 1 então
+            candidato1 ← canditado1 + 1;
+        senão se voto ← 2 então
+            candidato2 ← canditado2 + 1;
+        senão se voto ← 3 então
+            candidato3 ← canditado3 + 1;
+        senão se voto ← 4 então
+            candidato4 ← canditado4 + 1;
+        senão se voto ← 5 então
+            nulo ← nulo + 1;
+        senão se voto ← 6 então
+            branco ← branco + 1;
+        FimSe;
+     senão
+        Escreva("Código Inválido! Digite um número entre 1 e 6");
+     FimSe;
+
+        Escreva("Informe o código do voto: (1-4=candidatos, 5=nulo, 6=branco, 0=Encerrar): ");
+        Leia(voto);
+     FimEnquanto;
+
+   Se totalVotos > 0 então
+        percentualCandidato1 ← (candidato1 /totalVotos) * 100;
+        percentualCandidato2 ← (candidato2 /totalVotos) * 100;
+        percentualCandidato3 ← (candidato3 /totalVotos) * 100;
+        percentualCandidato4 ← (candidato4 /totalVotos) * 100;
+        percentualNulo ← (nulo /totalVotos) * 100;
+        percentualBranco ← (branco /totalVotos) * 100;
+   FimSe;
+
+   Escreva("Total de votos para o Candidato 1: ", candidato1, " (", percentualCandidato1, "%)");
+   Escreva("Total de votos para o Candidato 2: ", candidato2, " (", percentualCandidato2, "%)");
+   Escreva("Total de votos para o Candidato 3: ", candidato3, " (", percentualCandidato3, "%)");
+   Escreva("Total de votos para o Candidato 4: ", candidato4, " (", percentualCandidato4, "%)");
+   Escreva("Total de votos Nulos: ", nulo, " (", percentualNulo, "%)");
+   Escreva("Total de votos em Branco: ", branco, " (", percentualBranco, "%)");
+
+Fim
