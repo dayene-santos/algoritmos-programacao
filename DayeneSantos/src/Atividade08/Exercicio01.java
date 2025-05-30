@@ -24,7 +24,7 @@ public class Exercicio01 { // início da classe principal
             for (int i = 0; i < numeros.length; i++) {
                 if (numeros[i] == tentativa) { // se encontrar o número
                     System.out.print("\nParabéns, o número " + tentativa + " faz parte do vetor!"); // exibe mensagem ao usuário
-                    System.out.print("\nEle está na " + i + "ª posição!"); // mostra a posição
+                    System.out.print("\nEle está no índice: " +i); // mostra a posição
                     encontrou = true; // marca que encontrou
                     break; // interrompe o laço for
                 }
