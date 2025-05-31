@@ -14,7 +14,7 @@ public class Exercicio05 {
         int[] numeros = new int[20]; // vetor que irá armazenar 20 números
         int pares = 0; // variável que irá contar os números pares presentes no vetor
 
-        // loop para gerar os números para o vetor
+        // loop para gerar os números para o vetor e contar os pares
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(100) + 1;
 
@@ -23,7 +23,7 @@ public class Exercicio05 {
                 pares++; // incrementa de acordo com os números pares inseridos
             }
         }
-        // imprime os números do vetor
+        // imprime todos os números do vetor
         System.out.print("\nOs números do vetor são: ");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i]);

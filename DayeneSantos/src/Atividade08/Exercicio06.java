@@ -10,7 +10,7 @@ import java.util.Random; // Importa a classe Random para gerar números aleatór
 public class Exercicio06 {
     public static void main(String[] args) {
         Random random = new Random(); // Cria um objeto da classe Random para gerar números aleatórios
-        
+
         int[] numeros = new int[10]; // Cria um vetor de inteiros com 10 posições para armazenar os números aleatórios
 
         int[] ordemCrescente = new int[numeros.length]; // Cria outro vetor com o mesmo tamanho para armazenar os números em ordem crescente
