@@ -25,17 +25,16 @@ public class Exercicio03 {
             vetorInvertido[i] = vetor2[vetor1.length - 1 - i];
         }
 
-        int indiceCentroDireito = (vetor1.length / 2); // calcula o centro a direita do vetor
-        int indiceCentroEsquerdo = (vetor1.length / 2) - 1; // calcula o centro a esquerda do vetor
-
+        int direita = vetorResultado.length -1;
+        int esquerda = 0;
         //loop para calcular o produto do vetor1 pelo inverso do vetor2
         for (int i = 0; i < vetor1.length; i++) {
             produtoTemporario[i] = vetor1[i] * vetorInvertido[i];
 
             if (i % 2 == 0) {
-                vetorResultado[indiceCentroEsquerdo--] = produtoTemporario[i];
+                vetorResultado[esquerda++] = produtoTemporario[i];
             } else {
-                vetorResultado[indiceCentroDireito++] = produtoTemporario[i];
+                vetorResultado[direita--] = produtoTemporario[i];
             }
         }
 
@@ -54,7 +53,7 @@ public class Exercicio03 {
                 System.out.print(", ");
             }
         }
-        System.out.println("\n\nO produto do primeiro vetor pelo inverso do segundo armazenado a partir do centro para as bordas; de modo alternado é: ");
+        System.out.println("\n\nO produto do primeiro vetor pelo inverso do segundo armazenado a partir das bordas para o centro; de modo alternado é: ");
         for (int i = 0; i < vetor1.length; i++) {
             System.out.printf("%.2f", vetorResultado[i]);
             if (i < vetorResultado.length - 1) {
