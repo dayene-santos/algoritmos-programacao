@@ -1,0 +1,22 @@
+Programação utilizando a linguagem Java:
+
+1) Faça um aplicativo em Java que faça o gerenciamento dos valores da conta luz de uma empresa que
+fornece energia elétrica fotovoltaica a 20 clientes, e precisa armazenar a média do consumo de
+energia de 12 meses de cada um dos clientes para que sejam consultados.
+Requisitos do programa.
+
+➢ O programa deverá receber o valor da média de consumo dos últimos doze meses de cada
+cliente.
+    • A média do consumo de cada cliente deverá ser armazenada em um vetor de 20 posições.
+    • O nome de cada cliente deverá ser armazenada em um vetor de 20 posições.
+    • O código de cada cliente ser armazenada em um vetor de 20 posições.
+    • Um vetor de 20 posições dever[a ser construído para armazenar o valor da média de
+    consumo em R$; O programa deverá ter uma variável chamada tarifa, e o valor do KW
+    será lida por esta variável.
+
+➢ Deverão ser habilitadas e mostradas consultas por nomes ou por código. Ao ser solicitada
+consulta deverá apresentar o nome do cliente seu código, a média do consumo de energia e
+a média do valor pago.
+
+➢ O programa deverá mostrar uma tabela contendo o nome de ada cliente, seu código, a média
+de consumo e o valor médio de consumo.
