@@ -1,7 +1,7 @@
 /* Exercicio01 application
  *
  * @ author Dayene dos Santos Rosa - 12127152
- * @ version 1.00 2025/06/
+ * @ version 1.00 2025/06/10
  */
 
 1) Crie uma matriz de inteiros 3x3 (3 linhas e 3 colunas) e preencha-a com valores da sua escolha. Em
@@ -12,7 +12,7 @@ para que se pareça com a matriz original (linhas e colunas).
 /* Exercicio02 application
  *
  * @ author Dayene dos Santos Rosa - 12127152
- * @ version 1.00 2025/06/
+ * @ version 1.00 2025/06/11
  */
 
 2) Crie uma matriz original 2x3. Peça ao usuário para preencher os elementos dessa matriz. Em
@@ -23,7 +23,7 @@ colunas viram linhas). Imprima ambas as matrizes.
 /* Exercicio03 application
  *
  * @ author Dayene dos Santos Rosa - 12127152
- * @ version 1.00 2025/06/
+ * @ version 1.00 2025/06/11
  */
 
 3) Um cinema tem 3 salas, e cada sala tem 5 fileiras com 10 assentos cada. Você precisa de um sistema
