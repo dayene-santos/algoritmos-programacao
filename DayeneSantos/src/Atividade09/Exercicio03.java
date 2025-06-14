@@ -53,13 +53,27 @@ public class Exercicio03 {
             System.out.println("\nEscolha seu assento:");
 
             System.out.print("Sala (1 a 3): ");
-            int salaEscolhida = sc.nextInt()-1; // Subtrai 1 para ajustar no indice do vetor
+            int salaEscolhida = sc.nextInt();
+                while (salaEscolhida < 1 || salaEscolhida > 3) {
+                    System.out.println("Número fora do intervalo. Tente novamente.");
+                    salaEscolhida = sc.nextInt();
+                }
+                salaEscolhida -= 1; // Subtrai 1 para ajustar no indice do vetor
 
             System.out.print("Fileira (1 a 5): ");
-            int fileiraEscolhida = sc.nextInt()-1; // subtrai 1 para ajustar no indice do vetor
-
+            int fileiraEscolhida = sc.nextInt();
+                while (fileiraEscolhida < 1 || fileiraEscolhida > 5) {
+                    System.out.println("Número fora do intervalo. Tente novamente.");
+                    fileiraEscolhida = sc.nextInt();
+                }
+                    fileiraEscolhida -= 1; // subtrai 1 para ajustar no indice do vetor
             System.out.print("Assento (1 a 10): ");
-            int assentoEscolhido = sc.nextInt()-1; // subtrai 1 para ajustar no indice do vetor
+            int assentoEscolhido = sc.nextInt();
+            while (assentoEscolhido < 1 || assentoEscolhido > 10) {
+                System.out.println("Número fora do intervalo. Tente novamente.");
+                assentoEscolhido = sc.nextInt();
+            }
+                assentoEscolhido -= 1; // subtrai 1 para ajustar no indice do vetor
 
             // verifica o status do assento
             if (cinema[salaEscolhida][fileiraEscolhida][assentoEscolhido] == 'L') {
